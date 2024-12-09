@@ -1,19 +1,16 @@
 /* Main container */
 .type-summary-container {
-    background-color: #1f2937;
+    background-color: #003366;
+    
     color: white;
-    min-height: 100vh; /* Full viewport height */
-    display: flex;
-    flex-direction: column; /* Make sure children are stacked vertically */
-    justify-content: flex-start; /* Align content to top */
+    min-height: 100vh;
     padding: 2rem;
 }
-
+  
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 2rem; /* Space between container and next section */
-    flex-grow: 1; /* Allow the container to grow and fill available space */
+    margin-bottom: 2rem; /* Replaced space-y with margin */
 }
   
 /* Metrics Section */
