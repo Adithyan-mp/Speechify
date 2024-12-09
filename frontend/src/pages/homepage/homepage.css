@@ -1,0 +1,86 @@
+/* HomePage.css */
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #003366;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Ensures all content is centered horizontally */
+  }
+  
+  /* Content styles */
+/* Content styles */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #FD7722;
+    padding: 20px;
+    text-align: center; /* Ensures all text is centered by default */
+  }
+  
+  /* Heading styles */
+  .heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px; /* Reduce margin for better alignment */
+    line-height: 1.2;
+  }
+  
+  /* Subheading styles */
+  .subheading {
+    font-size: 1.25rem;
+    color: white;
+    opacity: 0.9;
+    margin-top: 0; /* Remove extra top margin */
+    line-height: 1.5;
+    text-align: center; /* Align text below heading */
+  }
+  
+  
+/* Gradient Record Button Styles */
+/* Sleek Circle Record Button Styles */
+/* Minimalist Rectangular Record Button */
+/* Circular Record Button */
+.record-button-circle {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, #FF5733, #FF8C00); /* Gradient background */
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Circle shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    margin: 0 auto;
+  }
+  
+  /* Hover Effect: Darker gradient */
+  .record-button-circle:hover {
+    background: linear-gradient(135deg, #FF8C00, #FF5733);
+  }
+  
+  /* When recording: Color changes to white with an outline */
+  .record-button-circle.recording {
+    background-color: #fff;
+    color: #FF5733;
+    border: 3px solid #FF5733;
+  }
+  
+  /* Status text styles */
+  .status-text-circle {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #FF5733;
+    opacity: 0.9;
+    font-weight: bold;
+  }
+  
